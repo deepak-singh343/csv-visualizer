@@ -1,0 +1,8 @@
+<form action="/files/upload" enctype="multipart/form-data" method="POST">
+    <input type="file" name="csvfile" accept=".csv" placeholder="select the csv file">
+    <input type="submit" value="Upload">
+</form>
+<br />
+<% if(locals.message) { %>
+<p><%=message%></p>
+<% } %>

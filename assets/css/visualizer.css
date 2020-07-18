@@ -1,0 +1,22 @@
+table{
+  width: 80%;
+  margin: auto;
+}
+
+caption{
+  color: #4a8f48;
+  font-size: 36px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px 0 20px;
+}
+
+th{
+  color: #406dd6;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 18px;
+}
+
+td{
+  font-size: 16px;
+}
