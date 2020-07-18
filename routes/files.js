@@ -8,7 +8,7 @@ var storage = multer.diskStorage({ //multers disk storage settings
     cb(null, path.join(__dirname, '../', 'uploads/'));
   },
   filename: function (req, file, cb) {
-    cb(null, file.originalname + '-' + Date.now() + '.' + file.originalname.split('.')[file.originalname.split('.').length - 1])
+    cb(null, file.fieldname + '-' + Date.now() + '.' + file.originalname.split('.')[file.originalname.split('.').length - 1])
   }
 });
 
